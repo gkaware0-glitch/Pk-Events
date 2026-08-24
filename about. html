@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About PK Events | Event Management</title>
+    <meta name="description" content="Learn more about PK Events and our professional event management services.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f7f7;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #f5c542;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f5c542;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: 60px auto;
+            background: white;
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.1);
+        }
+
+        .about h1 {
+            color: #111;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .about h2 {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #b38b00;
+        }
+
+        .about p {
+            line-height: 1.7;
+        }
+
+        .about img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>PK Events</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="about">
+
+    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80"
+         alt="PK Events Celebration">
+
+    <h1>About PK Events</h1>
+
+    <p>
+        PK Events is a professional event management company dedicated
+        to creating beautiful and unforgettable experiences.
+    </p>
+
+    <h2>Our Mission</h2>
+
+    <p>
+        Our mission is to make every event unique, enjoyable and memorable
+        through creative planning and professional management.
+    </p>
+
+    <h2>Why Choose PK Events?</h2>
+
+    <p>
+        We provide creative ideas, organized planning, quality decoration
+        and reliable event management services.
+    </p>
+
+</div>
+
+<footer>
+    <p>© 2026 PK Events. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
