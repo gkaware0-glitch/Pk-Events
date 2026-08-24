@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact PK Events | Book Your Event</title>
+    <meta name="description" content="Contact PK Events for wedding, birthday and corporate event planning services.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f7f7;
+        }
+
+        header {
+            background: #111;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #f5c542;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        .contact {
+            max-width: 700px;
+            margin: 60px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.1);
+        }
+
+        .contact h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact h2 {
+            margin: 20px 0 10px;
+            color: #b38b00;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 13px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 130px;
+        }
+
+        button {
+            background: #f5c542;
+            border: none;
+            padding: 13px 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>PK Events</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="contact">
+
+    <h1>Contact PK Events</h1>
+
+    <h2>Get In Touch</h2>
+
+    <p>Email: pkevents@example.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: Pune, Maharashtra, India</p>
+
+    <h2>Send Us a Message</h2>
+
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Event Type</label>
+        <input type="text" placeholder="Wedding / Birthday / Corporate">
+
+        <label>Message</label>
+        <textarea placeholder="Tell us about your event"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+
+<footer>
+    <p>© 2026 PK Events. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
